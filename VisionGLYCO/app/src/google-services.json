@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "905340050190",
+    "project_id": "visionglyco",
+    "storage_bucket": "visionglyco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905340050190:android:6809a42e1ecc839f50955f",
+        "android_client_info": {
+          "package_name": "com.developer.visionglyco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxxu1NfNwspwMtOy8SBGJtp3aeSxwtA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

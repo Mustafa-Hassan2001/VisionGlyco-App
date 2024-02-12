@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.Report">
+
+<!--    <com.sahana.horizontalcalendar.HorizontalCalendar-->
+<!--        android:id="@+id/horizontalCalendar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        app:numOfDays="90"-->
+<!--        app:setBgColor="@color/blue"-->
+<!--        app:setSelectedBgColor="@color/blue"-->
+<!--        app:setTextColor="@color/white"-->
+<!--        app:setSelectedTextColor="@color/white"-->
+<!--        app:setDateTextSize="22sp"-->
+<!--        app:setWeekTextSize="13sp"-->
+<!--        app:setMonthTextSize="17sp" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/openCamera"
+        android:background="@drawable/background"
+        android:text="Semptember 23 - December 21, 2023"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+<!--    <com.github.mikephil.charting.charts.BarChart-->
+<!--        android:id="@+id/bar_chart"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="420dp"-->
+<!--        android:layout_marginTop="10dp" />-->
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Download" />
+
+</LinearLayout>

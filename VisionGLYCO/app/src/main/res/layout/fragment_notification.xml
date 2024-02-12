@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Fragments.Notification">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/notification_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Creation"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="07/Feb/24"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to VisionGLYCO! 🎉 Stay tuned for updates, tips, and exciting features to enhance your experience. Explore our platform to discover the latest advancements in glucose management and take control of your health journey. Let's embark on this journey together! 🚀"
+        android:textStyle="normal"
+        android:textColor="@color/gray"
+        android:textSize="15sp"/>
+</LinearLayout>
